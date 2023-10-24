@@ -1,4 +1,4 @@
 # nwmaleok
-[shhyonn]
-    name = Yeva Rapovych
-    email = yrapovych@gmail.com
+<Yeva Rapovych> <17.10.2023>
+Nwn co tutaj napisać, nieh będzie
+
