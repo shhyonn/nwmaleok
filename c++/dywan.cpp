@@ -13,11 +13,13 @@ int main(){
        for(int j=0; j < a; j++){
        	if (i==0 || i == b-1)
            cout << "--";
-        else if(j==0 || j == a-1)
-        	cout << " | ";
-        else 
-        	if ()
-        	cout << "*#";
+        else if ((i + j) % 2 == 0) {
+                std::cout << "*";
+            } 
+		else {
+                std::cout << "#";
+            }
+            std::cout << "--";
            
        }
        cout << endl; 
