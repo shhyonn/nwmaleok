@@ -6,8 +6,8 @@ int main() {
     std::cin >> a;
     std::cout << "Podaj wysokosc: ";
     std::cin >> b;
-    for (int i = 0; i < a*1.6; ++i) {
-    std::cout << "--";
+    for (int i = 0; i < a; ++i) {
+    std::cout << "-";
 	}
 std::cout << " " << std::endl;
     for (int i = 0; i < b; ++i) {
@@ -20,9 +20,11 @@ std::cout << " " << std::endl;
             } else {
                 std::cout << "#";
             }
-            std::cout << "--";
         }
         std::cout << "|" << std::endl;
     }
+     for (int i = 0; i < a; ++i) {
+    std::cout << "-";
+	}
     return 0;
 }
