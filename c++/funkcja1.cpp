@@ -4,9 +4,9 @@ void Przywitanie(int imie, int nazwisko);
 int main()
 {   
 
-    string imie, nazwisko;
+    string a, b, c;
     
-    cout << "Podaj swoje imie: ";
+    cout << "wartości zmiennych: ";
     cin >> imie;
     cout << "Podaj swoje nazwisko: ";
     cin >> nazwisko;
