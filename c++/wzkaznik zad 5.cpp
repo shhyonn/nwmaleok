@@ -22,17 +22,17 @@ bool sprawdz_zgadniecie(int liczba, int tablica[], int rozmiar) {
 int main() {
     srand(time(NULL));
     const int rozmiar_tablicy = 10;
-    int wylosowane_liczby[rozmiar_tablicy];
+    int wylosowana_liczba[rozmiar_tablicy];
     int zgadniete_liczby = 0;
     int liczba;
     int licznik = 0;
 
-    // Wylosuj 10 liczb
-    losuj_liczby(wylosowane_liczby, rozmiar_tablicy);
+   
+    losuj_liczby(wylosowana_liczba, rozmiar_tablicy);
 
     cout << "Wynik działania programu:" << endl;
     for (int i = 0; i < rozmiar_tablicy; i++) {
-        cout << wylosowane_liczby[i] << ", ";
+        cout << wylosowana_liczba[i] << ", ";
     }
     cout << endl;
 
@@ -41,7 +41,7 @@ int main() {
         cin >> liczba;
         licznik++;
 
-        if (sprawdz_zgadniecie(liczba, wylosowane_liczby, rozmiar_tablicy)) {
+        if (sprawdz_zgadniecie(liczba, wylosowana_liczba, rozmiar_tablicy)) {
             cout << "Zgadłeś!" << endl;
             cout << "Zgadłeś za " << licznik << " razem." << endl;
             break;
@@ -53,3 +53,5 @@ int main() {
 
     return 0;
 }
+
+
