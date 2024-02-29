@@ -1,3 +1,19 @@
+//Do tablicy 10 elementowej wylosuj 10 liczb z przedziału od 0 do 50. Funkcja losujaca
+//Użytkownik podaje liczbę.
+//Stworz funkcję sprawdzającą czy użytkownik zgadł liczbę.Przekaż do funkcji wskaźni na podaną przez użytkownia liczbę oraz tablicę z wylosowanymi wartościami.
+//Użytkownik ma podawać tak długo liczbę aż trafi na którąś z wylosowanych liczb z tablicy(sprawdzić czy liczba jest w tablicy).
+//Po trafieniu liczby wyświetlić ma się licznik za którym razem trafił.
+//Wynik działania programu :
+//
+//25, 40, 9, 34, 19, 2, 37, 7, 12, 1,
+//Podaj liczbe : 3
+//Nie zgadles
+//Podaj liczbe : 9
+//Zgadles!
+//Zgadles za 2 razem.
+
+
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
