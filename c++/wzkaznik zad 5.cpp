@@ -46,24 +46,24 @@ int main() {
    
     losuj_liczby(wylosowana_liczba, rozmiar_tablicy);
 
-    cout << "Wynik działania programu:" << endl;
+    cout << "Wynik dzialania programu:" << endl;
     for (int i = 0; i < rozmiar_tablicy; i++) {
         cout << wylosowana_liczba[i] << ", ";
     }
     cout << endl;
 
     while (true) {
-        cout << "Podaj liczbę: ";
+        cout << "Podaj liczbe: ";
         cin >> liczba;
         licznik++;
 
         if (sprawdz_zgadniecie(liczba, wylosowana_liczba, rozmiar_tablicy)) {
-            cout << "Zgadłeś!" << endl;
-            cout << "Zgadłeś za " << licznik << " razem." << endl;
+            cout << "Zgadles!" << endl;
+            cout << "Zgadles za " << licznik << " razem." << endl;
             break;
         }
         else {
-            cout << "Nie zgadłeś" << endl;
+            cout << "Nie zgadles" << endl;
         }
     }
 
