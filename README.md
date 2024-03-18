@@ -1,8 +1,6 @@
 # nwmaleok
 <<<<<<< HEAD
-[user] 
-    name = Yeva Rapovych
-     email = yrapovych@gmail.com
+idk
 =======
 <Yeva Rapovych> <17.10.2023>
 Nwn co tutaj napisać, nieh będzie
