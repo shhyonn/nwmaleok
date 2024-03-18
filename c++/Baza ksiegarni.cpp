@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+//struktura księgarni
 struct Ksiegarnia {
     string tytul;
     string autor;
@@ -19,7 +19,7 @@ void wyswietlKsiazke(const Ksiegarnia& ksiazka) {
               << "\tCena: " << ksiazka.cena <<endl;
 }
 
-
+//za rokiem
 void wyszukajPoRoku(const Ksiegarnia* ksiazki, int ilosc, int rok) {
     cout << "Znalezione ksiazki:" << endl;
     for (int i = 0; i < ilosc; ++i) {
@@ -28,6 +28,7 @@ void wyszukajPoRoku(const Ksiegarnia* ksiazki, int ilosc, int rok) {
         }
     }
 }
+//za cena
 void wyszukajPoCenie(const Ksiegarnia* ksiazki, int ilosc, int cena) {
     cout << "Znalezione ksiazki:" << endl;
     for (int i = 0; i < ilosc; ++i) {
@@ -36,6 +37,7 @@ void wyszukajPoCenie(const Ksiegarnia* ksiazki, int ilosc, int cena) {
         }
     }
 }
+//za wydawnictwem powinno być
 void wyszukajWydawnictwo(const Ksiegarnia* ksiazki, int ilosc, int wydawnictwo) {
     cout << "Znalezione ksiazki:" << endl;
     for (int i = 0; i < ilosc; ++i) {
@@ -44,7 +46,8 @@ void wyszukajWydawnictwo(const Ksiegarnia* ksiazki, int ilosc, int wydawnictwo) 
         }
     }
 }
-int main() {
+int main() 
+{
   
     Ksiegarnia ksiazki[ 7 ] = {
     { "Tytul1", "autor1", 1925, "Helion1", 23.54 },
